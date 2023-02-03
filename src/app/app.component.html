@@ -1,0 +1,25 @@
+<div id="content" class="col-lg-10 col-lg-offset-1">
+  <header id="header" class="col-lg-12">
+      <h3>
+          {{title}}
+      </h3>
+  </header>
+  <nav id="nav" class="col-lg-12">
+      <ul>
+            <li>
+              <a [routerLink]="['/']" >Home</a>
+            </li>                              
+              <li>                       
+              <a [routerLink]="['lista-pokemones']" >Pokemón</a>
+            </li>           
+      </ul>
+  </nav>
+
+  <section id="main" class="col-lg-12">
+      <router-outlet></router-outlet>
+  </section>
+
+  <footer id="footer" class="col-lg-12">
+      <p>Test Angular SETI 2023- Yesica Jaraba- https://pokeapi.co/</p>
+  </footer>
+</div>

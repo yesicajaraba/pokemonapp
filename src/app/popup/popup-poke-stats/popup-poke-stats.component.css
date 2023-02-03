@@ -1,0 +1,54 @@
+.card {
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(231, 235, 194);
+    z-index: 1;
+    position: fixed;
+    top: 220px;
+    left: 600px;
+    width: 15%;
+    height: 30%;
+    align-content: center;
+}
+
+.header-image {
+    background-size: cover;
+    position: fixed;
+}
+
+.mat-card-header{
+    background-color: rgb(231, 235, 194);
+    padding-top: 10px;
+    border-radius: 10px;
+    position: fixed;
+}
+.mat-card-image{
+    background-color: rgb(231, 235, 194);
+    padding-top: 10px;
+    border-radius: 10px;
+    position: fixed;
+}
+.mat-card-content{
+    background-color: rgb(231, 235, 194);
+    padding-top: 10px;
+    border-radius: 10px;
+    position: fixed;
+    align-items: center;
+}
+.mat-card-title{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;   
+    position: fixed; 
+}
+
+.mat-card-subtitle{
+
+    color: black;
+    text-align: center;
+    position: fixed;
+}
+
+tr.example-element-row{
+    text-transform: capitalize;
+  }

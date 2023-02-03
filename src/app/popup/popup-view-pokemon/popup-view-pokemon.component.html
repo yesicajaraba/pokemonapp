@@ -1,0 +1,34 @@
+<div class="col-lg-10 col-lg-offset-1">
+<mat-card class="card">
+    <mat-card-content class="mat-card-content">    
+    <mat-card-header>
+    <mat-card-title class="mat-card-title">Nº {{InfPoke.id}} {{InfPoke.name}}'S CARD</mat-card-title>
+    </mat-card-header>
+        <img mat-card-image src="{{ImgPoke}}" alt="pokemon"  width="200" height="200" (click)="openDialog(id)"> 
+      <mat-chip-listbox>
+        <!--<mat-chip color="primary">Type: {{TypesPoke}}</mat-chip>-->
+        <table mat-table [dataSource]="dataSource">
+              
+            <!-- Position Column -->
+            <ng-container matColumnDef="type">
+                <th mat-header-cell *matHeaderCellDef> Types: </th>
+                <td mat-cell *matCellDef="let element"> {{element.type}} </td>
+              </ng-container>        
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;" class="example-element-row"></tr>
+        </table>  
+        <mat-chip color="primary">Height: {{InfPoke.height}}</mat-chip>
+        <mat-chip color="primary">Weight: {{InfPoke.weight}}</mat-chip>
+      </mat-chip-listbox>
+
+      <mat-card-actions>
+        <button mat-button (click)="cancelar()" >
+          Salir
+        </button>
+        <button class="btn btn-lg btn-primary" mat-button (click)="openDialog(InfPoke.id)" >
+            Ver Stats
+          </button>        
+      </mat-card-actions>        
+    </mat-card-content>
+</mat-card>
+</div>

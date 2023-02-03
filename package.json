@@ -1,0 +1,29 @@
+{
+  "name": "instrumentos",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.1.3",
+    "@types/node": "^18.11.18"
+  },
+  "dependencies": {
+    "@angular/animations": "^15.1.2",
+    "@angular/cdk": "^15.1.2",
+    "@angular/cli": "^15.1.3",
+    "@angular/common": "^15.1.2",
+    "@angular/compiler": "^15.1.2",
+    "@angular/core": "^15.1.2",
+    "@angular/material": "^15.1.2",
+    "@angular/platform-browser": "^15.1.2",
+    "@angular/platform-browser-dynamic": "^15.1.2",
+    "@angular/router": "^15.1.2",
+    "bootstrap": "^5.2.3"
+  }
+}
