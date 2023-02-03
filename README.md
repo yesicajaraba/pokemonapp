@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Firebase Deployment
+Run `ng build` on src root. Verify dist folder be created
+Run `npm install -g firebase-tools` for install firebase's tools
+Run `firebase login` for login google or firebase session
+Run `firebase init` for init firebase platform
+Run `firebase init hosting` for init firebase host
+Run `npm install firebase` for install firebase configuration
+Run `firebase emulators:start` for start firebase local emulator
+Run `firebase deploy` for launch deployment

@@ -1,5 +1,5 @@
 {
-  "name": "instrumentos",
+  "name": "pokemonapp",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -24,6 +24,7 @@
     "@angular/platform-browser": "^15.1.2",
     "@angular/platform-browser-dynamic": "^15.1.2",
     "@angular/router": "^15.1.2",
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "firebase": "^9.17.0"
   }
 }
